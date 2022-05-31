@@ -1,0 +1,46 @@
+@media screen and (max-width:500px) {
+    .welcome .text-area {
+        padding-top: 0px;
+    }
+    .hero h4 {
+        font-size: 20px;
+    }
+    .hero h1 {
+        font-size: 45px;
+    }
+    .post-view-1 .content {
+        left: calc(50% + -205px);
+    }
+    .post-view-1:hover .content {
+        top: calc(50% + -123px);
+        left: calc(50% + -205px);
+    }
+    .post {
+        box-sizing: content-box;
+        padding: 20px;
+    }
+    .tab .main-image {
+        width: 100%;
+        max-height: 300px;
+        margin-bottom: -68px;
+    }
+    .tab .main-image img {
+        height: 300px;
+    }
+    .tab .image {
+        width: 100%;
+        max-height: 300px;
+    }
+    .tab .image img {
+        height: 300px;
+    }
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+        width: 95%;
+    }
+    .social,
+    .links {
+        margin-bottom: 50px;
+    }
+}

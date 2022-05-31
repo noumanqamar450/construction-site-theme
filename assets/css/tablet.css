@@ -1,0 +1,64 @@
+@media screen and (max-width:1023px) {
+    .nav-top {
+        display: none;
+    }
+    .nav-bar .nav {
+        display: flex;
+        position: absolute;
+        width: 100%;
+        left: -100%;
+        top: -100%;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        background: linear-gradient(to left, rgb(255, 255, 255, 85%), rgb(255, 255, 255, 85%)), url('../img/2.jpg') no-repeat center center;
+        background-size: 1455px 100vh;
+        object-fit: cover;
+        z-index: 1;
+        transition: 1s;
+    }
+    .nav-bar .nav ul {
+        display: inline-block;
+    }
+    .nav-bar .nav ul li {
+        margin-bottom: 20px;
+    }
+    .nav-bar .nav ul li a {
+        color: #000;
+        font-size: 18;
+    }
+    .nav-bar .collapse-bar {
+        display: block;
+    }
+    .nav-bar .cross {
+        display: block;
+    }
+    .small-image {
+        display: block;
+        margin: 0;
+    }
+    .small-image .col-lg-6 {
+        padding: 0;
+    }
+    .tab .main-image {
+        width: 100%;
+        max-height: 500px;
+        margin-bottom: 30px;
+    }
+    .tab .main-image img {
+        height: 500px;
+    }
+    .tab .image {
+        width: 100%;
+        max-height: 500px;
+    }
+    .tab .image img {
+        height: 500px;
+    }
+    .contact-section {
+        text-align: center;
+    }
+    form {
+        margin-top: 25px;
+    }
+}
